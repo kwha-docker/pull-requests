@@ -1,0 +1,4 @@
+freeze==1.0.10
+PyYAML==3.12
+six==1.11.0
+pandas==0.18.1
