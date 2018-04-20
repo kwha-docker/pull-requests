@@ -1,3 +1,5 @@
 FROM python
 
-RUN pip install -r requirements.txt
+ADD . /pull-requests
+
+RUN pip install -r /pull-requests/requirements.txt
